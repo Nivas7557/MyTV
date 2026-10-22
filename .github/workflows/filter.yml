@@ -1,4 +1,4 @@
-name: Auto Filter Playlists
+name: Generate IPTV Playlists
 
 on:
   schedule:
@@ -9,25 +9,20 @@ permissions:
   contents: write
 
 jobs:
-  filter:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Process Telugu Playlist
+      - name: Run Python Script to Generate Playlists
         run: |
-          curl -s https://iptv-org.github.io/iptv/languages/tel.m3u -o original_tel.m3u
-          grep -v -E "Gospel|Calvary|Divyavani|Nireekshana|Subhavaartha|Shopping" original_tel.m3u > custom_tel.m3u
+          python3 process_ap.py
 
-      - name: Run Python Script for All India Streams
-        run: |
-          python3 process_india.py
-
-      - name: Commit and Push Changes
+      - name: Commit and Push Playlists
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add custom_tel.m3u custom_india.m3u
-          git commit -m "Auto-updated custom_tel and custom_india playlists" || exit 0
+          git add custom_tel.m3u custom_ap.m3u
+          git commit -m "Auto-generated custom_tel.m3u and custom_ap.m3u" || exit 0
           git push
