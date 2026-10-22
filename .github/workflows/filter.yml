@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -27,4 +27,5 @@ jobs:
         git config --global user.name "GitHub Actions Bot"
         git config --global user.email "actions@github.com"
         git add custom_tel.m3u custom_ap.m3u
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-generate IPTV playlists" && git push)
+        git commit -m "Auto-generate IPTV playlists" || echo "No changes to commit"
+        git push origin master
