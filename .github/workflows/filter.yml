@@ -2,9 +2,11 @@ name: Filter M3U Playlist
 
 on:
   schedule:
-    # ప్రతిరోజూ రాత్రి 12 గంటలకు ఆటోమేటిక్‌గా రన్ అవుతుంది
     - cron: '0 0 * * *'
-  workflow_dispatch: # మ్యాన్యువల్‌గా రన్ చేయడానికి
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   filter:
@@ -15,11 +17,7 @@ jobs:
 
       - name: Download and Filter Telugu M3U
         run: |
-          # 1. IPT-ORG నుండి ఒరిజినల్ ఫైల్‌ని డౌన్‌లోడ్ చేయడం
           curl -s https://iptv-org.github.io/iptv/languages/tel.m3u -o original_tel.m3u
-
-          # 2. మీకు వద్దనుకున్న ఛానెల్ పేర్లను తొలగించడం (ఉదాహరణ: Gospel, Bhakthi, etc.)
-          # వద్దు అనుకున్న ఛానెల్స్ ని '|' ఉపయోగించి యాడ్ చేయవచ్చు
           grep -v -E "Gospel|Bhakthi|Shopping" original_tel.m3u > custom_tel.m3u
 
       - name: Commit and Push Changes
