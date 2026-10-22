@@ -1,7 +1,6 @@
 import re
-import urllib.request
 
-# మీరందజేసిన పర్ఫెక్ట్ తెలుగు బేస్ లిస్ట్
+# 1. Custom Telugu Only List (custom_tel.m3u)
 TELUGU_BASE_M3U = """#EXTM3U
 #EXTINF:-1 tvg-id="4SiDESTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png" group-title="News",4 SiDES TV (1080p)
 https://stream.ottlive.co.in/4sidestv/index.m3u8
@@ -125,72 +124,73 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8
 """
 
-def process_ap_playlist():
-    # 1. custom_tel.m3u ని సృష్టిస్తుంది (Telugu Only)
+# 2. Extra Groups (Sports, Hindi Music, Hollywood Movies) with Guaranteed Group Titles
+EXTRA_GROUPS_M3U = """
+#EXTINF:-1 tvg-id="StarSports2.in@HD" group-title="All Sports",Star Sports 2 HD (720p)
+http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@SD" group-title="All Sports",Star Sports 2 Hindi (720p)
+https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
+#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" group-title="All Sports",Star Sports Select 2 HD (720p)
+http://tvsen7.aynascope.net/ssport2hd/index.m3u8
+#EXTINF:-1 tvg-id="StarSports2.in@SD" group-title="All Sports",Star Sports 2 (576p)
+http://103.151.60.162:2122/play/a00v/index.m3u8?hls
+#EXTINF:-1 tvg-id="StarSports3.in@SD" group-title="All Sports",Star Sports 3 (576p)
+http://103.151.60.162:2122/play/a029/index.m3u8?hls
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" group-title="All Sports",Star Sports Select 1 HD (1080p)
+http://103.151.60.162:2122/play/a026/index.m3u8?hls
+#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" group-title="All Sports",Star Sports Select 2 HD (1080p)
+http://103.151.60.162:2122/play/a027/index.m3u8?hls
+#EXTINF:-1 tvg-id="StarSports2Telugu.in@HD" group-title="All Sports",Star Sports 2 Telugu HD (576p)
+https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport.in@SD" group-title="All Sports",Eurosport (720p)
+https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@HD" group-title="All Sports",DD Sports (720p)
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" group-title="All Sports",DD Sports SD (576p)
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@HD" group-title="All Sports",DD Sports HD (1080p)
+https://cdn.pishow.tv/ott/live/1161/master.m3u8
+#EXTINF:-1 tvg-id="9XJalwa.in@SD" group-title="Hindi Music",9X Jalwa (576p)
+https://mumt03.tangotv.in/Dsly5z3H9XJALWA/index.m3u8
+#EXTINF:-1 tvg-id="9XJhakaas.in@SD" group-title="Hindi Music",9X Jhakaas (1080p)
+https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="9XTashan.in@SD" group-title="Hindi Music",9X Tashan (1080p)
+https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="9XM.in@SD" group-title="Hindi Music",9XM (1080p)
+https://9xjio.wiseplayout.com/9XM/master.m3u8
+#EXTINF:-1 tvg-id="B4UMusic.in@India" group-title="Hindi Music",B4U Music (576p)
+https://cdn.pishow.tv/ott/live/415/master.m3u8
+#EXTINF:-1 tvg-id="BalleBalle.in@HD" group-title="Hindi Music",Balle Balle HD (720p)
+https://mcncdndigital.com/balleballetv/index.m3u8
+#EXTINF:-1 tvg-id="Mastiii.in@SD" group-title="Hindi Music",Mastiii (576p)
+https://mumbai-edge.smartplaytv.in/MastiMusic/index.m3u8
+#EXTINF:-1 tvg-id="Zoom.in@SD" group-title="Hindi Music",Zoom (720p)
+https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:-1 tvg-id="Zoom.in@SD" group-title="Hindi Music",Zoom (576p)
+https://mumbai-edge.smartplaytv.in/Zoom/index.m3u8
+#EXTINF:-1 tvg-id="Zoom.in@Nepal" group-title="Hindi Music",Zoom Nepal (720p)
+https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:-1 tvg-id="StarMovies.in@HD" group-title="Hollywood Movies",Star Movies HD (1080p)
+http://103.185.24.134:3001/Star-Movies/index.m3u8
+#EXTINF:-1 tvg-id="MoviesNow.in@HD" group-title="Hollywood Movies",Movies Now HD (1080p)
+http://103.151.60.162:2122/play/a02w/index.m3u8?hls
+#EXTINF:-1 tvg-id="BflixMovies.in@SD" group-title="Hollywood Movies",Bflix Movies (576p)
+http://103.151.60.162:2122/play/a01e/index.m3u8?hls
+#EXTINF:-1 tvg-id="SonyPix.in@HD" group-title="Hollywood Movies",Sony Pix HD (1080p)
+http://103.151.60.162:2122/play/a01d/index.m3u8?hls
+"""
+
+def generate_playlists():
+    # 1. Generate Telugu Only Playlist (custom_tel.m3u)
     with open("custom_tel.m3u", "w", encoding="utf-8") as f:
         f.write(TELUGU_BASE_M3U.strip() + "\n")
-    print("custom_tel.m3u created successfully!")
+    print("custom_tel.m3u saved successfully!")
 
-    # 2. custom_ap.m3u ని సృష్టిస్తుంది (Telugu Base + Extra Groups)
-    url = "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/in.m3u"
-    output_ap_file = "custom_ap.m3u"
-
-    print("Downloading India streams for custom_ap.m3u...")
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    try:
-        with urllib.request.urlopen(req) as response:
-            india_content = response.read().decode('utf-8', errors='ignore')
-    except Exception as e:
-        print(f"Error downloading file: {e}")
-        return
-
-    final_ap_lines = [TELUGU_BASE_M3U.strip() + "\n"]
-    lines = india_content.splitlines()
-    unwanted_keywords = ["gospel", "calvary", "divyavani", "subhavaartha", "peace tv", "quran", "islam", "shopping", "aaseervatham", "hebron", "salaam", "shekinah", "shalom"]
-
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        if line.startswith("#EXTINF:"):
-            extinf = line
-            url_lines = []
-            i += 1
-            while i < len(lines) and not lines[i].startswith("#EXTINF:"):
-                url_lines.append(lines[i])
-                i += 1
-
-            full_block = extinf + "\n" + "\n".join(url_lines)
-            ch_lower = full_block.lower()
-
-            if any(kw in ch_lower for kw in unwanted_keywords):
-                continue
-
-            target_group = None
-            if any(sp in ch_lower for sp in ["star sports", "sports18", "sony ten", "sony six", "dd sports", "eurosport"]):
-                target_group = "All Sports"
-            elif any(hm in ch_lower for hm in ["mtv", "9xm", "9x jalwa", "mastiii", "b4u music", "zoom"]):
-                target_group = "Hindi Music"
-            elif any(em in ch_lower for em in ["vh1", "clubbing tv", "stingray"]):
-                target_group = "English Music"
-            elif any(hw in ch_lower for hw in ["sony pix", "mnx", "movies now", "star movies", "wb", "hbo", "flix", "bflix"]):
-                target_group = "Hollywood Movies"
-
-            if target_group:
-                if 'group-title="' in extinf:
-                    extinf = re.sub(r'group-title="[^"]*"', f'group-title="{target_group}"', extinf)
-                else:
-                    extinf = extinf.replace('#EXTINF:-1', f'#EXTINF:-1 group-title="{target_group}"')
-                
-                final_ap_lines.append(extinf + "\n")
-                for u in url_lines:
-                    final_ap_lines.append(u + "\n")
-        else:
-            i += 1
-
-    with open(output_ap_file, "w", encoding="utf-8") as f:
-        f.writelines(final_ap_lines)
-
-    print("custom_ap.m3u created successfully!")
+    # 2. Generate AndhraPradesh Playlist (custom_ap.m3u = Telugu Base + Extra Groups)
+    ap_content = TELUGU_BASE_M3U.strip() + "\n" + EXTRA_GROUPS_M3U.strip() + "\n"
+    with open("custom_ap.m3u", "w", encoding="utf-8") as f:
+        f.write(ap_content)
+    print("custom_ap.m3u saved successfully with All Sports, Hindi Music, & Hollywood Movies!")
 
 if __name__ == "__main__":
-    process_ap_playlist()
+    generate_playlists()
