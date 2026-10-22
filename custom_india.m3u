@@ -79,6 +79,8 @@ https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3MATHIMUGAMTV/index.m3u8
 #EXTINF:-1 tvg-id="MadhimugamTV.in@SD",Madhimugam TV (576p)
 https://yuppparoriglin.akamaized.net/181224/smil:mathimugam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="MahaaBhakti.in@SD",Mahaa Bhakti (1080p)
+https://mumbai-edge.smartplaytv.in/MahaBhakthi/index.m3u8
 #EXTINF:-1 tvg-id="MangoMobileTV.in@HD",Mango Mobile TV (1080p)
 https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
 #EXTINF:-1 tvg-id="ManoramaNews.in@SD",Manorama News (1080p)
@@ -96,6 +98,8 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://bhoomtv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://maamusic.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8
+#EXTINF:-1 tvg-id="News9Live.in@SD",News9Live (720p)
+https://vg-tv9yupp.vgcdn.net/vglive-sk-526536/v1/019e01ace8511ea540a871e333268/019e01ad3da31ea55784752988551/main.m3u8
 #EXTINF:-1 tvg-id="NTCTV.in@SD",NTC TV (720p)
 https://galaxyott.live/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="NTVTelugu.in@SD",NTV Telugu (1080p)
@@ -158,6 +162,18 @@ https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8
 https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TeluguOne.in@HD",Telugu One (1080p)
 https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8
+#EXTINF:-1 tvg-id="TV9Bangla.in@SD",TV9 Bangla (720p)
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9Bharatvarsh.in@SD",TV9 Bharatvarsh (720p)
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9Bharatvarsh.in@SD",TV9 Bharatvarsh (720p)
+https://vg-tv9yupp.vgcdn.net/vglive-sk-468570/v1/019dfce4b3371ea55784752988544/019dfce515ea1ea540a871e333259/main.m3u8
+#EXTINF:-1 tvg-id="TV9Gujarati.in@SD",TV9 Gujarati (720p)
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9Kannada.in@SD",TV9 Kannada (720p) [Not 24/7]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9kanmo6oiq/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9Marathi.in@SD",TV9 Marathi (720p)
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="TV9Telugu.in@SD",TV9 Telugu (720p)
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="UltimateTV.in@SD",Ultimate TV (1080p)
@@ -198,8 +214,14 @@ https://mumt06.tangotv.in/qYyB8fXVANJANTV/index.m3u8
 https://streams.tangotv.in/9XM/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in@India",B4U Music (576p)
 https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="TV9Bharatvarsh.in@SD",TV9 Bharatvarsh (576p)
+https://streams.tangotv.in/TV9BHARATVARSH/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="ChardiklaTimeTV.in@SD",Chardikla Time TV (576p)
 https://streams.tangotv.in/CHARDIKALATIMETV/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="TV9Gujarati.in@SD",TV9 Gujarati (576p)
+https://streams.tangotv.in/TV9GUJARATI/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="TV9Marathi.in@SD",TV9 Marathi (576p)
+https://streams.tangotv.in/TV9MARATHI/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="OMTV.in@SD",OM TV (576p)
 https://mumt01.tangotv.in/O5aw8Zn3OMTV/index.m3u8
 #EXTINF:-1 tvg-id="RajMusixTelugu.in@SD",Raj Musix Telugu (576p)
@@ -214,10 +236,14 @@ https://mumt05.tangotv.in/87NeALx2V6NEWS/index.m3u8
 https://streams.tangotv.in/WETV/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="MediaOne.in@SD",Media One (576p)
 https://streams.tangotv.in/MEDIAONETV/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="TV9Kannada.in@SD",TV9 Kannada (576p)
+https://streams.tangotv.in/TV9KANNADA/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="KhushbooBangla.in@SD",Khushboo Bangla (576p)
 https://mumt01.tangotv.in/O5aw8Zn3KHUSHBOOTVBANGLA/index.m3u8
 #EXTINF:-1 tvg-id="RongeenTV.in@SD",Rongeen TV (576p)
 https://mumt05.tangotv.in/87NeALx2RONGEENTV/index.m3u8
+#EXTINF:-1 tvg-id="TV9Bangla.in@SD",TV9 Bangla (576p)
+https://streams.tangotv.in/TV9BANGLA/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="SalaamTV.in@SD",Salaam TV (576p)
 https://mumt07.tangotv.in/zHjX9OFlZEESALAM/index.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in@India",B4U Music (576p)
@@ -346,14 +372,22 @@ https://mumbai-edge.smartplaytv.in/RongeenTV/index.m3u8
 https://mumbai-edge.smartplaytv.in/Zoom/index.m3u8
 #EXTINF:-1 tvg-id="SVBC.in@SD",SVBC (720p)
 https://mumbai-edge.smartplaytv.in/SVBC/index.m3u8
+#EXTINF:-1 tvg-id="TV9Bangla.in@SD",TV9 Bangla (720p)
+https://mumbai-edge.smartplaytv.in/Tv9Bangla/index.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@HD",DD Sports (720p)
 https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@SD",DD Sports SD (576p)
 https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
 #EXTINF:-1 tvg-id="PowervisionTV.in@SD",Powervision TV (720p)
 https://mumbai-edge.smartplaytv.in/PowerVision/index.m3u8
+#EXTINF:-1 tvg-id="TV9Marathi.in@SD",TV9 Marathi (720p)
+https://mumbai-edge.smartplaytv.in/TV9Marathi/index.m3u8
 #EXTINF:-1 tvg-id="VelichamTV.in@SD",Velicham TV (576p)
 https://mumbai-edge.smartplaytv.in/Velichamtv/index.m3u8
+#EXTINF:-1 tvg-id="TV9Kannada.in@SD",TV9 Kannada (576p)
+https://mumbai-edge.smartplaytv.in/tv9kannada/index.m3u8
+#EXTINF:-1 tvg-id="BhakthiSiri.in@SD",Bhakthi Siri (576p)
+https://mumbai-edge.smartplaytv.in/Bhakthisiri/index.m3u8
 #EXTINF:-1 tvg-id="VistaarNews.in@SD",Vistaar News (576p)
 https://vistaarnews.com/livetv-stream/test.m3u8
 #EXTINF:-1 tvg-id="HMTV.in@SD",HMTV (576p)
@@ -390,6 +424,8 @@ https://mumt03.tangotv.in/Dsly5z3HVALAMDAIRO/index.m3u8
 https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in@India",B4U Music (1080p)
 https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/720p/index.m3u8
+#EXTINF:-1 tvg-id="TV9Marathi.in@SD",TV9 Marathi (576p)
+https://cdn.pishow.tv/ott/live/2/master.m3u8
 #EXTINF:-1 tvg-id="RajNewsTelugu.in@SD",Raj News Telugu (576p)
 https://cdn.pishow.tv/ott/live/279/master.m3u8
 #EXTINF:-1 tvg-id="SantvaniChannel.in@SD",Santvani Channel (576p)
