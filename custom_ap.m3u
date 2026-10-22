@@ -119,170 +119,55 @@ https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8
 #EXTINF:-1 tvg-id="ZeeTeluguNews.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023178R.png?lock=720x540" group-title="News",Zee Telugu News (720p)
 https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="9XJalwa.in@SD",9X Jalwa (576p)
-https://mumt03.tangotv.in/Dsly5z3H9XJALWA/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="9XJhakaas.in@SD",9X Jhakaas (1080p)
-https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="9XTashan.in@SD",9X Tashan (1080p)
-https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="9XM.in@SD",9XM (1080p)
-https://9xjio.wiseplayout.com/9XM/master.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="9XM.in@SD",9XM (1080p)
-https://epiconvh.akamaized.net/live/9XM/master.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="AdhyatmTV.in@SD",Adhyatm TV (720p)
-https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="B4UMusic.in@India",B4U Music (576p)
-https://cdn.pishow.tv/ott/live/415/master.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="ETVComedy.in@HD",ETV Comedy (1080p)
-https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="ETVJosh.in@HD",ETV Josh (1080p)
-https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="ETVMusic.in@HD",ETV Music (1080p)
-https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="ETVNews.in@HD",ETV News (1080p)
-https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="JanamTV.in@SD",Janam TV (576p)
-https://mumt03.tangotv.in/Dsly5z3HJANAMTV/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="JanamTV.in@SD",Janam TV (576p)
-https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="MadhimugamTV.in@SD",Madhimugam TV (576p)
-https://mumt01.tangotv.in/O5aw8Zn3MATHIMUGAMTV/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="MadhimugamTV.in@SD",Madhimugam TV (576p)
-https://yuppparoriglin.akamaized.net/181224/smil:mathimugam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 group-title="Hindi Music" tvg-id="ManoramaNews.in@SD",Manorama News (1080p)
-https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="MarutamTV.in@SD",MNTV (1080p)
-https://mntv.livebox.co.in/mntvhls/live.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="MTV.in@SD",MTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="MTV.in@HD",MTV HD (396p)
-#EXTVLCOPT:http-referrer=https://bhoomtv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-https://maamusic.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="PuthuyugamTV.in@SD",Puthuyugam TV (576p)
-https://mumt04.tangotv.in/m18aqlK4PUTHUYUGAMTV/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="SairamTV.in@SD",Sairam TV
-https://cdn.pishow.tv/ott/live/1611/master.m3u8
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSports2.in@HD",Star Sports 2 HD (720p)
+#EXTINF:-1 tvg-id="StarSports2.in@HD" group-title="All Sports",Star Sports 2 HD (720p)
 http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSports2Hindi.in@SD",Star Sports 2 Hindi (720p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@SD" group-title="All Sports",Star Sports 2 Hindi (720p)
 https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSportsSelect2.in@HD",Star Sports Select 2 HD (720p)
+#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" group-title="All Sports",Star Sports Select 2 HD (720p)
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="TamilJanam.in@SD",Tamil Janam (576p)
-https://mumt01.tangotv.in/O5aw8Zn3JANAMTVTAMIL/index.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="ZeeBusiness.in@SD",Zee Business (720p)
-https://dwby15d04agvq.cloudfront.net/index_5.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="ZeeBusiness.in@SD",Zee Business (576p)
-https://dwby15d04agvq.cloudfront.net/index_1.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="ZeeSouthFlix.in@HD",Zee South Flix (1080p)
-https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="Zoom.in@SD",Zoom (720p)
-https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="Zoom.in@SD",Zoom (576p)
-https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="9XJalwa.in@SD",9X Jalwa (1080p)
-https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="9XM.in@SD",9XM (1080p)
-https://wiselp.wiseplayout.com/9XM/master.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="9XM.in@SD",9XM (576p)
-https://streams.tangotv.in/9XM/ORIGIN/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="B4UMusic.in@India",B4U Music (576p)
-https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="OMTV.in@SD",OM TV (576p)
-https://mumt01.tangotv.in/O5aw8Zn3OMTV/index.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="KhushbooBangla.in@SD",Khushboo Bangla (576p)
-https://mumt01.tangotv.in/O5aw8Zn3KHUSHBOOTVBANGLA/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="B4UMusic.in@India",B4U Music (576p)
-https://tvsen3.aynaott.com/8m7Vmh3K/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="B4UMusic.in@India",B4U Music (576p)
-https://mumbai-edge.smartplaytv.in/B4uMusic/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="VelichamTV.in@SD",Velicham TV (576p)
-https://mumt05.tangotv.in/87NeALx2VALICHAMPLUS/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="SohamTV.in@SD",Soham TV (576p)
-https://mumt03.tangotv.in/Dsly5z3HSOHAMTV/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="SharnamTV.in@SD",Sharnam TV (576p)
-https://mumt06.tangotv.in/qYyB8fXVSHARNAMTV/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="B4UMusic.in@India",B4U Music (576p)
-http://66.102.126.10:8000/play/a01e/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="SairamTV.in@SD",Sairam TV (576p)
-https://mumt04.tangotv.in/m18aqlK4SAIRAMTV/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="MazhavilManorama.in@HD",Mazhavil Manorama HD (1080p)
-https://mmtv-vglivessai.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/f8a0827f-030f-4a0d-b7e5-338996c09a5b/index.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="NHBollyFlix.in@HD",NH BollyFlix (1080p)
-https://jmp2.uk/stvp-IN46000140Q
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="NHBollyRaga.in@HD",NH BollyRaga (1080p)
-https://jmp2.uk/stvp-IN460001373
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="NHBollyGold.in@HD",NH BollyGold (1080p)
-https://0dc330e6408b4c3b9ac31fd37b121368.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/nh-bollygold-airtel/playlist.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="HMTV.in@SD",HMTV (576p)
-https://mumbai-edge.smartplaytv.in/HMTV/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="Mastiii.in@SD",Mastiii (576p)
-https://mumbai-edge.smartplaytv.in/MastiMusic/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="Zoom.in@SD",Zoom (576p)
-https://mumbai-edge.smartplaytv.in/Zoom/index.m3u8
-#EXTINF:-1 group-title="All Sports" tvg-id="DDSports.in@HD",DD Sports (720p)
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
-#EXTINF:-1 group-title="All Sports" tvg-id="DDSports.in@SD",DD Sports SD (576p)
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="VelichamTV.in@SD",Velicham TV (576p)
-https://mumbai-edge.smartplaytv.in/Velichamtv/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="HMTV.in@SD",HMTV (576p)
-https://yuppnimresmum.akamaized.net/28072023/smil:hmtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="KhushbooBangla.in@SD",Khushboo Bangla (576p) [Geo-blocked]
-https://tvsen6.aynaott.com/mzwbzfZ4/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="Mastiii.in@SD",Mastiii (576p) [Geo-blocked]
-https://tvsen3.aynaott.com/er7jmpVF/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="B4UMusic.in@India",B4U Music (576p)
-https://mumt04.tangotv.in/m18aqlK4B4UMUSIC/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="BhagyamTV.in@SD",Bhagyam TV (1080p)
-https://ott.bhagyam.net/hls/bhagyamweb/index-1409148900-now.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="BhagyamTV.in@SD",Bhagyam TV (576p) [Not 24/7]
-https://bhagyam.iptv.pics/bhagyam/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="SathiyamTV.in@SD",Sathiyam TV (576p)
-https://mumt07.tangotv.in/zHjX9OFlSATHIYAMTV/index.m3u8
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSports2Telugu.in@HD",Star Sports 2 Telugu HD (576p)
-https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="ValamTVDayro.in@SD",Valam TV Dayro (576p)
-https://mumt03.tangotv.in/Dsly5z3HVALAMDAIRO/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="B4UMusic.in@India",B4U Music (1080p)
-https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="B4UMusic.in@India",B4U Music (1080p)
-https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/720p/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="SharnamTV.in@SD",Sharnam TV (576p)
-https://d1msejlow1t3l4.cloudfront.net/fta/sharanamtv/playlist.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="StarMovies.in@HD",Star Movies HD (1080p)
-http://103.185.24.134:3001/Star-Movies/index.m3u8
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="MoviesNow.in@HD",Movies Now HD (1080p)
-http://103.151.60.162:2122/play/a02w/index.m3u8?hls
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="BflixMovies.in@SD",Bflix Movies (576p)
-http://103.151.60.162:2122/play/a01e/index.m3u8?hls
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="StarMovies.in@HD",Star Movies HD (1080p)
-http://103.151.60.162:2122/play/a02k/index.m3u8?hls
-#EXTINF:-1 group-title="Hollywood Movies" tvg-id="SonyPix.in@HD",Sony Pix HD (1080p)
-http://103.151.60.162:2122/play/a01d/index.m3u8?hls
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSports2.in@SD",Star Sports 2 (576p)
+#EXTINF:-1 tvg-id="StarSports2.in@SD" group-title="All Sports",Star Sports 2 (576p)
 http://103.151.60.162:2122/play/a00v/index.m3u8?hls
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSports2.in@SD",Star Sports 2 (576p)
-http://103.151.60.162:2122/play/a019/index.m3u8?hls
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSports3.in@SD",Star Sports 3 (576p)
+#EXTINF:-1 tvg-id="StarSports3.in@SD" group-title="All Sports",Star Sports 3 (576p)
 http://103.151.60.162:2122/play/a029/index.m3u8?hls
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSportsSelect1.in@HD",Star Sports Select 1 HD (1080p)
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" group-title="All Sports",Star Sports Select 1 HD (1080p)
 http://103.151.60.162:2122/play/a026/index.m3u8?hls
-#EXTINF:-1 group-title="All Sports" tvg-id="StarSportsSelect2.in@HD",Star Sports Select 2 HD (1080p)
+#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" group-title="All Sports",Star Sports Select 2 HD (1080p)
 http://103.151.60.162:2122/play/a027/index.m3u8?hls
-#EXTINF:-1 group-title="Hindi Music" tvg-id="MTV.in@SD",MTV (576p)
-#EXTVLCOPT:http-referrer=https://bhoomtv.org/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
-https://yupp-music.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-id="HistoryTV18.in@HD",History TV18 HD
-#EXTVLCOPT:http-referrer=https://bhoomtv.org/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36
-https://techtraveleat.in/stream.m3u8?id=historytv18eng
-#EXTINF:-1 group-title="Hindi Music" tvg-id="Zoom.in@Nepal",Zoom Nepal (720p)
-https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
-#EXTINF:-1 group-title="All Sports" tvg-id="Eurosport.in@SD",Eurosport (720p)
+#EXTINF:-1 tvg-id="StarSports2Telugu.in@HD" group-title="All Sports",Star Sports 2 Telugu HD (576p)
+https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport.in@SD" group-title="All Sports",Eurosport (720p)
 https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
-#EXTINF:-1 group-title="All Sports" tvg-id="DDSports.in@HD",DD Sports HD (1080p)
+#EXTINF:-1 tvg-id="DDSports.in@HD" group-title="All Sports",DD Sports (720p)
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" group-title="All Sports",DD Sports SD (576p)
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@HD" group-title="All Sports",DD Sports HD (1080p)
 https://cdn.pishow.tv/ott/live/1161/master.m3u8
+#EXTINF:-1 tvg-id="9XJalwa.in@SD" group-title="Hindi Music",9X Jalwa (576p)
+https://mumt03.tangotv.in/Dsly5z3H9XJALWA/index.m3u8
+#EXTINF:-1 tvg-id="9XJhakaas.in@SD" group-title="Hindi Music",9X Jhakaas (1080p)
+https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="9XTashan.in@SD" group-title="Hindi Music",9X Tashan (1080p)
+https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="9XM.in@SD" group-title="Hindi Music",9XM (1080p)
+https://9xjio.wiseplayout.com/9XM/master.m3u8
+#EXTINF:-1 tvg-id="B4UMusic.in@India" group-title="Hindi Music",B4U Music (576p)
+https://cdn.pishow.tv/ott/live/415/master.m3u8
+#EXTINF:-1 tvg-id="BalleBalle.in@HD" group-title="Hindi Music",Balle Balle HD (720p)
+https://mcncdndigital.com/balleballetv/index.m3u8
+#EXTINF:-1 tvg-id="Mastiii.in@SD" group-title="Hindi Music",Mastiii (576p)
+https://mumbai-edge.smartplaytv.in/MastiMusic/index.m3u8
+#EXTINF:-1 tvg-id="Zoom.in@SD" group-title="Hindi Music",Zoom (720p)
+https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:-1 tvg-id="Zoom.in@SD" group-title="Hindi Music",Zoom (576p)
+https://mumbai-edge.smartplaytv.in/Zoom/index.m3u8
+#EXTINF:-1 tvg-id="Zoom.in@Nepal" group-title="Hindi Music",Zoom Nepal (720p)
+https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:-1 tvg-id="StarMovies.in@HD" group-title="Hollywood Movies",Star Movies HD (1080p)
+http://103.185.24.134:3001/Star-Movies/index.m3u8
+#EXTINF:-1 tvg-id="MoviesNow.in@HD" group-title="Hollywood Movies",Movies Now HD (1080p)
+http://103.151.60.162:2122/play/a02w/index.m3u8?hls
+#EXTINF:-1 tvg-id="BflixMovies.in@SD" group-title="Hollywood Movies",Bflix Movies (576p)
+http://103.151.60.162:2122/play/a01e/index.m3u8?hls
+#EXTINF:-1 tvg-id="SonyPix.in@HD" group-title="Hollywood Movies",Sony Pix HD (1080p)
+http://103.151.60.162:2122/play/a01d/index.m3u8?hls
