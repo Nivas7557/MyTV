@@ -2,8 +2,9 @@ name: Filter M3U Playlist
 
 on:
   schedule:
+    # ప్రతిరోజు రాత్రి 12 గంటలకు ఆటోమేటిక్‌గా అప్‌డేట్ అవుతుంది
     - cron: '0 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # మ్యాన్యువల్‌గా రన్ చేయడానికి
 
 permissions:
   contents: write
@@ -17,13 +18,16 @@ jobs:
 
       - name: Download and Filter Telugu M3U
         run: |
+          # 1. IPT-ORG నుండి ఒరిజినల్ ఫైల్‌ని డౌన్‌లోడ్ చేయడం
           curl -s https://iptv-org.github.io/iptv/languages/tel.m3u -o original_tel.m3u
-          grep -v -E "Gospel|Bhakthi|Shopping" original_tel.m3u > custom_tel.m3u
+
+          # 2. Christian, Muslim & Shopping ఛానెల్స్ మాత్రమే తొలగించడం
+          grep -v -E "Gospel|Calvary|Divyavani|Nireekshana|Subhavaartha|Shopping" original_tel.m3u > custom_tel.m3u
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add custom_tel.m3u
-          git commit -m "Auto-updated filtered playlist" || exit 0
+          git commit -m "Updated playlist with Hindu devotional channels only" || exit 0
           git push
