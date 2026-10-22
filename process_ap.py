@@ -1,6 +1,6 @@
 import re
 
-# 1. Re-organised & Corrected Telugu Only Base List (Discovery moved to Documentary, Sun Gemini in Entertainment, others removed)
+# 1. Re-organised & Corrected Telugu Only Base List
 TELUGU_BASE_M3U = """#EXTM3U
 #EXTINF:-1 tvg-id="ETVJosh.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Josh.png" group-title="Entertainment",ETV Josh (1080p)
 https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8
@@ -211,23 +211,4 @@ https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
 http://103.185.24.134:3001/Star-Movies/index.m3u8
 #EXTINF:-1 tvg-id="MoviesNow.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MOVIES_NOW_HD/images/LOGO_HD/image.png" group-title="Hollywood Movies",Movies Now HD (1080p)
 http://103.151.60.162:2122/play/a02w/index.m3u8?hls
-#EXTINF:-1 tvg-id="BflixMovies.in@SD" tvg-logo="https://i.imgur.com/k9b8zLq.png" group-title="Hollywood Movies",Bflix Movies (576p)
-http://103.151.60.162:2122/play/a01e/index.m3u8?hls
-#EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Hollywood Movies",Sony Pix HD (1080p)
-http://103.151.60.162:2122/play/a01d/index.m3u8?hls
-"""
-
-def generate_playlists():
-    # 1. Generate custom_tel.m3u
-    with open("custom_tel.m3u", "w", encoding="utf-8") as f:
-        f.write(TELUGU_BASE_M3U.strip() + "\n")
-    print("custom_tel.m3u generated successfully!")
-
-    # 2. Generate custom_ap.m3u
-    ap_content = TELUGU_BASE_M3U.strip() + "\n" + EXTRA_GROUPS_M3U.strip() + "\n"
-    with open("custom_ap.m3u", "w", encoding="utf-8") as f:
-        f.write(ap_content)
-    print("custom_ap.m3u generated successfully!")
-
-if __name__ == "__main__":
-    generate_playlists()
+#EXTINF:-1 tvg-id="
