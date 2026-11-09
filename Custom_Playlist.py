@@ -2,12 +2,13 @@ import requests
 import re
 import os
 
+# Source link from iptv-org
 ORIGINAL_M3U_URL = "https://iptv-org.github.io/iptv/index.m3u"
 OUTPUT_FILE = "Custom_Playlist.m3u"
 INPUT_TXT_FILE = "Channels.txt"
 
 def load_channels_from_txt(file_path):
-    """Reads the custom Channels.txt file and parses groups and channels structured in order."""
+    """Reads the custom Channels.text file and parses groups and channels structured in order."""
     if not os.path.exists(file_path):
         print(f"Error: {file_path} not found!")
         return {}
@@ -62,6 +63,7 @@ def fetch_and_filter_m3u():
     print(f"Lookup dictionary built successfully with {len(lookup_map)} lookup tokens.")
     
     try:
+        print(f"Fetching original M3U from: {ORIGINAL_M3U_URL}")
         response = requests.get(ORIGINAL_M3U_URL, timeout=60, stream=True)
         response.raise_for_status()
     except Exception as err:
